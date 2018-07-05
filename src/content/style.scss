@@ -1,0 +1,41 @@
+@import '~@angular/material/theming';
+
+@import '../app/pages/first-page/first-page.component.scss';
+@import '../app/pages/second-page/second-page.component.scss';
+@import '../app/pages/third-page/third-page.component.scss';
+@import '../app/pages/fourth-page/fourth-page.component.scss';
+
+@import '../app/my-nav/my-nav.component.scss';
+@import '../app/loader/loader.component.scss';
+
+
+@include mat-core();
+
+$primary : $mat-indigo;
+$accent  : $mat-orange;
+$warn    : $mat-red;
+
+
+
+$primary-app-primary: mat-palette($primary , 400);
+$primary-app-accent:  mat-palette($accent , 900);
+$primary-app-warn:    mat-palette($warn );
+$ngmat-theme:   mat-light-theme($primary-app-primary, $primary-app-accent,$primary-app-warn);
+
+
+
+
+
+@include angular-material-theme($ngmat-theme);
+
+
+html {
+  height:100%;
+}
+body{
+  padding: 0px !important;
+  margin: 0px !important;
+  height:100%;
+  width:100%;
+}
+

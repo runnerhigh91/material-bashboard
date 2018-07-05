@@ -1,0 +1,320 @@
+
+   .scrolling-wrapper {
+    display:flex;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    
+
+    //Card Styles//
+
+    .card { 
+      display: inline-block;
+      border-radius: 10px;
+      margin: 20px;
+      min-width: 250px;
+      max-width: 250px;
+      min-height: 100px;
+      max-height: 100px;
+      padding-right: 17px;
+    }
+  
+    .card-header{
+        color: rgba(255, 255, 255, 0.897);
+        
+    }
+    .card-icon{
+          color:white;
+          position: relative;
+          font-size: 50px;
+          padding-left:120px;
+          padding-top:10px;
+          bottom: 15px;
+      }
+      .number-wrapper{
+        border-radius: 10px;
+      }
+      .card-number{
+        display: flex;
+        color:white;
+        font-size: 30px;
+        padding-left: 170px;
+      }
+
+      //Chart Styles//
+
+      .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 500px;
+        max-width: 500px;
+        padding-right: 100px;
+        
+      }
+     
+  }
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .scrolling-wrapper {
+    display:flex;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    
+
+    //Card Styles//
+
+    .card { 
+      display: inline-block;
+      border-radius: 10px;
+      margin: 20px;
+      min-width: 250px;
+      max-width: 250px;
+      min-height: 100px;
+      max-height: 100px;
+      padding-right: 17px;
+    }
+  
+    .card-header{
+        color: rgba(255, 255, 255, 0.897);
+        
+    }
+    .card-icon{
+          color:white;
+          position: relative;
+          font-size: 50px;
+          padding-left:120px;
+          padding-top:10px;
+          bottom: 15px;
+      }
+      .number-wrapper{
+        border-radius: 10px;
+      }
+      .card-number{
+        display: flex;
+        color:white;
+        font-size: 30px;
+        padding-left: 170px;
+      }
+
+      //Chart Styles//
+
+      .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 500px;
+        max-width: 500px;
+        padding-right: 100px;
+        
+      }
+     
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .scrolling-wrapper {
+    display:flex;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    //Card Styles//
+
+    .card { 
+      display: inline-block;
+      border-radius: 10px;
+      margin: 20px;
+      min-width: 250px;
+      max-width: 250px;
+      min-height: 100px;
+      max-height: 100px;
+      padding-right: 17px;
+    }
+  
+    .card-header{
+        color: rgba(255, 255, 255, 0.897);
+        
+    }
+    .card-icon{
+          color:white;
+          position: relative;
+          font-size: 50px;
+          padding-left:120px;
+          padding-top:10px;
+          bottom: 15px;
+      }
+      .number-wrapper{
+        border-radius: 10px;
+      }
+      .card-number{
+        display: flex;
+        color:white;
+        font-size: 30px;
+        padding-left: 170px;
+      }
+
+      //Chart Styles//
+
+      .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 500px;
+        max-width: 500px;
+        padding-right: 100px;
+        
+      }
+     
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .scrolling-wrapper {
+       
+    display:flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    
+    .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 100%;
+        max-width: 100%;
+        padding-right: 100px;
+      }
+
+   
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .scrolling-wrapper {
+       
+    display:flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    
+    .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 100%;
+        max-width: 100%;
+        padding-right: 100px;
+      }
+
+   
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .scrolling-wrapper {
+       
+    display:flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    
+    .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 100%;
+        max-width: 100%;
+        padding-right: 100px;
+      }
+
+   
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .scrolling-wrapper {
+       
+    display:flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    
+    .chart-card{
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+        min-height: 450px;
+        max-height: 450px;
+        min-width: 100%;
+        max-width: 100%;
+        padding-right: 100px;
+      }
+
+   
+}
+  
+}
